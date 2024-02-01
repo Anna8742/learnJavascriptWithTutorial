@@ -31,3 +31,28 @@ console.log(myStr);
  * 
  * 
  */
+
+var myStr02 = "String" + "String";
+
+// to get third last letter
+
+var firstName = "Ada";
+var thirdToLastLetterOfFirstName = firstName[firstName.length -3];
+
+// Arrays
+
+var ourArray = [["the universe", 42], ["everything", 10101]];
+
+var myArray = [];
+
+// Manipulate Arrays with push ()
+
+ourArray.push(["happy", "joy"]);
+
+// Remove  last item from array with pop function
+
+ourArray.pop();
+
+// Shift function it removes first element of array
+
+ourArray.shift();
